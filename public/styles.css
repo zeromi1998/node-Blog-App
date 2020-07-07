@@ -1,0 +1,146 @@
+body{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(236, 234, 234, 0.76);
+    
+}
+p,h1,h3,ul,a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+
+}
+h2{
+    margin: 4px;
+    padding: 4px;
+    color: white;
+    background-color: rgba(129, 85, 128, 0.404);
+}
+.site-title {
+   font-size: 30px;
+   overflow: hidden;
+   color: black;
+}
+/* .site-title a{
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+} */
+
+li {
+   list-style: none;
+   float: left;
+   padding: 20px;
+   width: 100px;
+   background-color: rgb(226, 159, 15);
+   margin-top: 9px;
+   text-align: center;
+   
+}
+.blog-content,.details-content {
+   text-align: center;
+   padding: 160px;
+   
+   
+   
+}
+
+.delete{
+   cursor: pointer;
+   
+   float: right;
+   margin-top: 30px;
+ 
+}
+
+
+
+   
+.blog-content a {
+   display: block;
+   margin: 40px 0;
+   border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+.blog-content a:hover h3{
+  color: red;
+
+
+}
+a{
+   color:white; 
+   
+}
+
+li:hover{
+   background-color: blue;
+}
+.tag{
+   color: black;
+ 
+}
+footer{
+   text-align: center;
+}
+.about-content{
+padding: 160px;
+text-align: center;
+}
+.create-blog-content{
+margin-top: 150px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid black;
+border-radius: 2px;
+border-style: none;
+background-color: white;
+height: 300px;
+width:500px;
+padding:20px;
+}
+input{
+   padding: 10px;
+   margin: 10px;
+   width: 95%;
+    border-style: none;  
+    background-color: rgb(50, 59, 59);        
+    border-radius: 5px; 
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: white;
+opacity: 1; /* Firefox */
+}
+textarea{
+margin: 9px;
+padding: 9px;
+   width: 96%;
+   height: 100px;
+   border-style: none;
+   background-color: rgb(50, 59, 59);     
+   border-radius: 5px;
+   color: white;
+   
+}
+button{
+   margin-left: 210px;
+   margin-top: 20px;
+   width: 80px;
+   height: 40px;
+   background-color: tomato;
+   border-radius: 10px;
+   border-style: none;
+   color: white;
+   font-weight: bold;
+}
+button:hover{
+   background-color: rgb(126, 64, 6);
+}
